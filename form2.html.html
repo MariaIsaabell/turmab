@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form action="#" method="post">
+
+         <!-- Título -->
+         <h1>Formulário de Clientes</h1>
+
+         <!--Nome-->
+        <div>
+            <label>Nome:
+                <input type="text" id="name" placeholder="Digite seu nome" maxlength="10" style="display: block; margin-bottom: 5px;" required autofocus>
+            </label>
+        </div>
+        <br>
+
+        <!--Telefone-->
+        <div>
+            <label>Telefone:
+                <input type="tel" name="tel" id="tel" placeholder="(00) 00000-0000" maxlength="20" style="display: block; margin-bottom: 5px;" required autocomplete>
+            </label>
+        </div>
+        <br>
+
+        <!--CEP-->
+        <div>
+            <label>CEP:
+                <input type="tel" name="cep" id="cep" placeholder="00000-000" maxlength="20" style="display: block; margin-bottom: 5px;" required autocomplete>
+            </label>
+        </div>
+        <br>
+
+        <!-- Números -->
+        <div>
+            <label for="number">Número:</label>
+            <input type="tel" id="number" placeholder="Número Residencial" maxlength="10" style="display: block; margin-bottom: 5px;"required autocomplete >
+        </div>
+        <br>
+
+        <!-- Complemento -->
+        <div>
+            <label for="message" style="display: block; margin-bottom: 5px;">Complemento:</label>
+            <textarea name="message" id="message" placeholder="Ex: Bloco A, Ap 202" rows="5" cols="30"
+            style="resize: none; " required></textarea>
+        </div>
+        <br>
+
+        <!--Logradouro-->
+        <div>
+            <label>Logradouro:
+                <input type="text" name="logradouro" id="logradouro" placeholder="Ex: Rua ABC, Avenida ABC" maxlength="100" style="display: block; margin-bottom: 5px;" required autocomplete >
+            </label>
+        </div>
+        <br>
+
+       
+       <!-- Submit (Cadastrar) -->
+        <label for="submit"></label>
+        <input type="submit" id="submit" value="Cadastrar" style="border-radius: 50px; padding: 5px 10px;">
+
+
+    </form>
+
+</body>
+</html>
