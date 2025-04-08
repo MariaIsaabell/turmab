@@ -1,0 +1,52 @@
+	/-- Git --/
+Git é um sistema de controle de versão distribuido.
+
+Git é, de fato, um versionador de código, mais especificamente um sistema de controle de versão distribuído (VCS - Version Control System). Ele é projetado para acompanhar as mudanças feitas no código-fonte ao longo do tempo, permitindo que você gerencie diferentes versões de um projeto, colabore com outros desenvolvedores e tenha um histórico completo de alterações.
+
+° O que é Git ?f
+° Para que serve?
+Rastreia alterações e arquivos ao longo do tempo.
+Permite que vc volte a versões antriores do seu projeto.
+
+° O que é um branch?
+Um branch é uma cópia separada do código principal, que permite trabalhar em novas funcionalidades sem afetar o código que já está funcionando.
+Em Resumo a "branch" é uma cópia separada onde você pode fazer mudanças sem afetar a história principal.
+
+Um "Salvamento com comentários(descrição)" das alterações no repositório. 
+
+Cada dia é uma nova oportunidade para brilhar.
+
+		 
+/---COMANDO GIT---/
+
+"Não iremos fazer a utilização de espaços"
+
+cd nome_da_pasta - Navegar em uma pasta 
+cd .. Para sair da pasta 
+pwd -  é usado para exibir o diretório atual em que você está
+cd ~ - é usado para navegar para o diretório home do usuário atual.
+
+		 -- Manipulação de pasta -- 
+mkdir - Criar uma pasta 
+mv nome_atual Nome_novo - Renomear uma psta 
+mv end/pasta/antiga end/pasta/nova - Mover uma pasta
+rmdir "nome da pasta" - Remover pasta
+rm-r "Nome da Pasta" - Remover uma pasta com arquivos 
+
+	-- Manipulação de Pata e Arquivos --
+mkdir && touch - Criar uma pasta com um arquivo
+echo - Criar um arquivo co conteúdo "echo "conteúdo"> nome_do_arquio.txt
+touch - Arquivo Vazio "touch - nome_do_arquivo
+mkdir - Criar uma pasta 
+
+ 	-- Manipulação de Arquivos --
+Renomear 
+Mover
+Deletar Aquivos
+
+mv- renomear um arquivo nome-atual.txt Nome-novo.txt
+cp - Copiar u arquivo "nome-do-arquivo camibho/destino"
+cp-r - Copiar uma Patas "nome-do-arquivo camibho/destino"
+pwd Retorna o caminho aberto no Gir
+cler - Limpa o terminal ou crtl + l 
+alt + F4 - Fecha o terminal do Git
